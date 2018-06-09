@@ -13,7 +13,7 @@ source ~/.virtualenv/option-critic/bin/activate
 ```
 
 
-## [Arcade Learning Environment] (https://github.com/mgbellemare/Arcade-Learning-Environment)
+## [Arcade Learning Environment][https://github.com/mgbellemare/Arcade-Learning-Environment]
 
 ###  Installing Dependencies
 #### OSX
@@ -29,7 +29,7 @@ brew install sdl sdl_image sdl_mixer sdl_ttf portmidi
 ```
 
 #### Ubuntu
-reference to https://github.com/mgbellemare/Arcade-Learning-Environment
+reference to [Arcade Learning Environment][https://github.com/mgbellemare/Arcade-Learning-Environment]
 
 ####  Installing Arcade Learning Environment
 
@@ -79,6 +79,31 @@ MACOSX_DEPLOYMENT_TARGET=10.9 pip install -e .
 ```
 pip install -e .
 ```
+
+## OpenCV
+### Ubuntu
+Get [install-opencv.sh][https://github.com/milq/milq/blob/master/scripts/bash/install-opencv.sh]
+ or use the install-opencv.sh provided in this directory directory
+
+
+Install opencv
+```
+bash install-opencv.sh
+```
+
+### OSX
+1. Install opencv
+```
+brew install opencv
+```
+
+
+2. Link opencv to the environment
+```
+ln -s /usr/local/opt/opencv3/lib/python2.7/site-packages/cv2.so ~/.virtualenv/option-critic/lib/python2.7/site-packages/cv2.so
+```
+
+
 
 
 ## General Python Packages
