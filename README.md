@@ -15,6 +15,7 @@ Here's a list of all dependencies:
 - matplotlib
 - cv2 (OpenCV)
 
+[Instruction to how to install these dependencies][dependencies_installation.md]
 ## Training
 
 To train, run following command:
