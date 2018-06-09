@@ -1,4 +1,3 @@
--e git+https://github.com/mgbellemare/Arcade-Learning-Environment.git@f7fff8733c8cc0f54d749ddeaf29bd7f478d6f0f#egg=ale_python_interface
 backports.functools-lru-cache==1.5
 certifi==2018.4.16
 cffi==1.11.5
