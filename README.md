@@ -15,12 +15,18 @@ Here's a list of all dependencies:
 - matplotlib
 - cv2 (OpenCV)
 
-[Instruction to how to install these dependencies][dependencies_installation.md]
+[Instruction to how to install these dependencies](/dependencies/dependencies_installation.md)
+
+## Atari Download
+
+Download [breakout](https://github.com/openai/atari-py/raw/master/atari_py/atari_roms/breakout.bin) from [openai](https://github.com/openai/atari-py/tree/master/atari_py/atari_roms)
+
+
 ## Training
 
 To train, run following command:
 ```
-python train_q.py --rom pong --num-options 8 --folder-name pong_tempmodel
+python train_q.py --rom breakout --num-options 8 --folder-name pong_tempmodel
 ```
 
 To view a list of available parameters, run:
