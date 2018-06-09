@@ -18,7 +18,7 @@ class Defaults:
     # ----------------------
     # ALE Parameters
     # ----------------------
-    BASE_ROM_PATH = "../aleroms/"
+    BASE_ROM_PATH = "./aleroms/"
     ROM = 'bug.bin'
     FRAME_SKIP = 4
 

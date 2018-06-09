@@ -19,7 +19,7 @@ Here's a list of all dependencies:
 
 ## Atari Download
 
-Download [breakout](https://github.com/openai/atari-py/raw/master/atari_py/atari_roms/breakout.bin) from [openai](https://github.com/openai/atari-py/tree/master/atari_py/atari_roms)
+Download atari from [openai](https://github.com/openai/atari-py/tree/master/atari_py/atari_roms)
 
 
 ## Training
