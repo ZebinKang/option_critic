@@ -1,4 +1,4 @@
-# Dependencies installation on OSX
+# Dependencies installation on Unix-based system
 
 ## Create and load virtual environment
 
@@ -15,7 +15,8 @@ source ~/.virtualenv/option-critic/bin/activate
 
 ## [Arcade Learning Environment] (https://github.com/mgbellemare/Arcade-Learning-Environment)
 
-####  Installing Dependencies
+###  Installing Dependencies
+#### OSX
 Use Homebrew to install several libraries required for low level access to media and controls.
 
 1. sdl: designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware
@@ -26,6 +27,9 @@ Use Homebrew to install several libraries required for low level access to media
 ```
 brew install sdl sdl_image sdl_mixer sdl_ttf portmidi
 ```
+
+#### Ubuntu
+reference to https://github.com/mgbellemare/Arcade-Learning-Environment
 
 ####  Installing Arcade Learning Environment
 
@@ -65,12 +69,16 @@ Navigate to the repository root.
 cd ~/Arcade-Learning-Environment
 ```
 
+
 Install the Python module, with the provided setup.py.
+1. OSX
 ```
 MACOSX_DEPLOYMENT_TARGET=10.9 pip install -e .
 ```
-
-
+2. Ubuntu
+```
+pip install -e .
+```
 
 
 ## General Python Packages
