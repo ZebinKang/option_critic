@@ -1,24 +1,17 @@
 # Dependencies installation on OSX
 
-## General Python Packages
+## Create and load virtual environment
 
-#### Install some general python packages with pip.
-
+create virtual environment
 ```
-pip install -r requirements.txt
-```
-
-#### Config theano
-If your Mac has Nvidia GPU and you want to use it. Config as following
-and install CUDA.
-```
-echo -e "\n[global]\nfloatX=float32\ndevice=gpu\n[mode]=FAST_RUN\n\n[nvcc]\nfastmath=True\n\n[cuda]\nroot=/usr/local/cuda" >> ~/.theanorc
+virtualenv ~/.virtualenv/option-critic --python=python2
 ```
 
-Otherwise, config theano as following.
+load virtual environment
 ```
-echo -e "[global]\nfloatX=float32" >> ~/.theanorc
+source ~/.virtualenv/option-critic/bin/activate
 ```
+
 
 ## [Arcade Learning Environment] (https://github.com/mgbellemare/Arcade-Learning-Environment)
 
@@ -78,3 +71,24 @@ MACOSX_DEPLOYMENT_TARGET=10.9 pip install -e .
 ```
 
 
+
+
+## General Python Packages
+
+#### Install some general python packages with pip.
+
+```
+pip install -r requirements.txt
+```
+
+#### Config theano
+If your Mac has Nvidia GPU and you want to use it. Config as following
+and install CUDA.
+```
+echo -e "\n[global]\nfloatX=float32\ndevice=gpu\n[mode]=FAST_RUN\n\n[nvcc]\nfastmath=True\n\n[cuda]\nroot=/usr/local/cuda" >> ~/.theanorc
+```
+
+Otherwise, config theano as following.
+```
+echo -e "[global]\nfloatX=float32" >> ~/.theanorc
+```
