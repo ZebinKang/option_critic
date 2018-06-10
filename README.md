@@ -17,6 +17,12 @@ Here's a list of all dependencies:
 
 [Instruction to how to install these dependencies](/dependencies/dependencies_installation.md)
 
+## GPU Speedup
+
+It is possible to use GPU to speedup the computing.
+
+See more details about [GPU Speedup](/dependencies/gpu_speedup.md)
+
 ## Atari Download
 
 Download atari from [openai](https://github.com/openai/atari-py/tree/master/atari_py/atari_roms)
