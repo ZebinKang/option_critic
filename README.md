@@ -1,6 +1,6 @@
 # The Option-Critic Architecture
 
-Code for the Option-Critic Architecture https://arxiv.org/pdf/1609.05140v2.pdf.
+Code for [The Option-Critic Architecture](https://arxiv.org/pdf/1609.05140v2.pdf).
 
 ## Installation
 
@@ -26,7 +26,7 @@ Download atari from [openai](https://github.com/openai/atari-py/tree/master/atar
 
 To train, run following command:
 ```
-python train_q.py --rom breakout --num-options 8 --folder-name pong_tempmodel
+python train_q.py --rom breakout --num-options 8 --folder-name breakout_tempmodel
 ```
 
 To view a list of available parameters, run:

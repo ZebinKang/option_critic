@@ -13,7 +13,7 @@ source ~/.virtualenv/option-critic/bin/activate
 ```
 
 
-## [Arcade Learning Environment][https://github.com/mgbellemare/Arcade-Learning-Environment]
+## [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment)
 
 ###  Installing Dependencies
 #### OSX
@@ -29,7 +29,7 @@ brew install sdl sdl_image sdl_mixer sdl_ttf portmidi
 ```
 
 #### Ubuntu
-reference to [Arcade Learning Environment][https://github.com/mgbellemare/Arcade-Learning-Environment]
+reference to [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment)
 
 ####  Installing Arcade Learning Environment
 
