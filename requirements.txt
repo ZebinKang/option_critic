@@ -30,3 +30,4 @@ subprocess32==3.5.2
 Theano==0.8.2
 typing==3.6.4
 urllib3==1.22
+gym==0.7.2
